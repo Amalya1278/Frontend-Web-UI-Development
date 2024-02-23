@@ -1,0 +1,23 @@
+form {
+    width: 200px;
+    margin: 25px auto;
+}
+body{
+    background-color: rgb(252, 193, 121);
+}
+
+input {
+    padding: 8px;
+    font-size: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 20px;
+    margin: 10px;
+    
+}
+label {
+    font-size: 40px;
+    color: rgb(79, 9, 241);
+}
