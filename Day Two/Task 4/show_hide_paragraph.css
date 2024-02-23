@@ -1,0 +1,17 @@
+#paragraph {
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+body {
+    background-color: rgb(222, 248, 105);
+}
+
+
+#toggleButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+    
+}
