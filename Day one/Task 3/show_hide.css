@@ -1,0 +1,14 @@
+#Div {
+    display: none;
+    padding: 20px;
+    background-color: #e6d713;
+    margin-top: 20px;
+    text-align: center;
+}
+#toggleButton {
+    display: block;
+    margin: 0 auto;
+    width: 150px; 
+    height: 40px; 
+    font-size: 16px; 
+}
