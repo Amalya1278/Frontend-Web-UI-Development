@@ -17,7 +17,7 @@
             event.preventDefault();
         }
 
-        // Validate Email
+        
         var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         if (!emailRegex.test(emailInput.value)) {
             emailError.textContent = "Plaease enter yout email";
