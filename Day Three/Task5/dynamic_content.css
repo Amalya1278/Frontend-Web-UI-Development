@@ -1,0 +1,22 @@
+.tabs {
+    display: flex;
+    font-size: 90px;
+}
+
+button {
+    height: 90px;
+    width: 170px;
+    display:block;
+    margin: 0 auto;
+    font-size: 25px;
+
+    
+}
+#tabContent{
+    display: block;
+    margin: 0 auto; 
+    font-size: 40px;
+    background-color: rgb(252, 207, 152);
+    text-align: center;
+
+}
