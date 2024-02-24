@@ -1,0 +1,30 @@
+/*#sliderContainer {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+}*/
+
+#image {
+    width: 100%;
+    height: 970px;
+    
+}
+
+button {
+    position: absolute;
+    top: 50%;
+   /* transform: translateY(-50%);*/
+    background-color: #0d007a;
+    color: #fff;
+    padding: 30px;
+   /* border: none;*/
+
+}
+
+#prev {
+    left: 10px;
+}
+
+#next{
+    right: 10px;
+}
