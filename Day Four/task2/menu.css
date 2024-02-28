@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    color: #f8f1f1;
+    font-size: 1.5rem;
+  }
+  
+  .navigation {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navigation li {
+    margin-right: 20px;
+  }
+  
+ .navigation a {  /*koghqi gracneri hamar*/
+   
+    color: #fff;
+    font-weight: bold;
+   
+  } 
+  
+  .menu-toggle {
+    display: none;
+    flex-direction: column;
+  } /*vor hanenk 1 hat gcik kmna*/
+  
+  .menu-toggle span {
+    height: 3px;
+    width: 25px;
+    background-color: #fff;
+    margin: 5px 0;
+    display: block;
+  }
+  /* vor hanenk,heru taneluc chi poxvi*/
+ @media screen and (max-width: 768px) {
+    .menu-toggle {
+      display: flex;
+    }
+  
+    .navigation {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      background-color: #333;
+     
+    }
+  
+    .navigation.show {
+      display: flex;
+    }
+  
+    .navigation li {
+      margin: 0;
+      text-align: center;
+    }
+  }
+  
+  
